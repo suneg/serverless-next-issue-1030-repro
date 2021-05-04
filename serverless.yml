@@ -1,0 +1,10 @@
+mypp:
+  component: "@sls-next/serverless-component@1.19"
+  inputs:
+    roleArn: "arn:aws:iam::633235609280:role/staging-lambda"
+    name:
+      defaultLambda: sune-test-lambda
+      apiLambda: sune-test-lambda
+    cloudfront:
+      distributionId: E3GBRTC8S7PDWK
+
